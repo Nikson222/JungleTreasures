@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c794e6a5fb45049d0bc58614e13999, type: 3}
+  m_Name: ElementsData
+  m_EditorClassIdentifier: 
+  _elements:
+  - name: first
+    _type: 0
+    _sprite: {fileID: 21300000, guid: b2ae3d424389d44cdb1742a38585186e, type: 3}
+    _winSprite: {fileID: 21300000, guid: 46473c3a9865e499f9356199e4b8b5a5, type: 3}
+    _winRates:
+    - name: 0.5
+      _minCount: 8
+      _maxCount: 9
+      _winRate: 0.5
+    - name: 1.5
+      _minCount: 10
+      _maxCount: 11
+      _winRate: 1.5
+    - name: 4
+      _minCount: 12
+      _maxCount: 30
+      _winRate: 4
+  - name: second
+    _type: 1
+    _sprite: {fileID: 21300000, guid: f7abe93f8aa3544a2940348c3ac065f8, type: 3}
+    _winSprite: {fileID: 21300000, guid: 3deb5eee69514474cbea03aafe7e6b0d, type: 3}
+    _winRates:
+    - name: 0.8
+      _minCount: 8
+      _maxCount: 9
+      _winRate: 0.8
+    - name: 1.8
+      _minCount: 10
+      _maxCount: 11
+      _winRate: 1.8
+    - name: 8
+      _minCount: 12
+      _maxCount: 30
+      _winRate: 8
+  - name: third
+    _type: 2
+    _sprite: {fileID: 21300000, guid: bef813eb67871410f85f4af29a8ad8da, type: 3}
+    _winSprite: {fileID: 21300000, guid: c4f07be75ec55497b8f0a72bffffedf9, type: 3}
+    _winRates:
+    - name: 1
+      _minCount: 8
+      _maxCount: 9
+      _winRate: 1
+    - name: 2
+      _minCount: 10
+      _maxCount: 11
+      _winRate: 2
+    - name: 10
+      _minCount: 12
+      _maxCount: 30
+      _winRate: 10
+  - name: fourth
+    _type: 3
+    _sprite: {fileID: 21300000, guid: 66f79d13c4d3945d4b71c43b581658a7, type: 3}
+    _winSprite: {fileID: 21300000, guid: 9a230427394764bbdada063393f53513, type: 3}
+    _winRates:
+    - name: 1.6
+      _minCount: 8
+      _maxCount: 9
+      _winRate: 1.6
+    - name: 2.4
+      _minCount: 10
+      _maxCount: 11
+      _winRate: 2.4
+    - name: 16
+      _minCount: 12
+      _maxCount: 30
+      _winRate: 16
+  - name: fifth
+    _type: 4
+    _sprite: {fileID: 21300000, guid: 408480925cfa744ea8b8c995882ff2c0, type: 3}
+    _winSprite: {fileID: 21300000, guid: 297b0073b71e1431989ccbbbcb51c388, type: 3}
+    _winRates:
+    - name: 2
+      _minCount: 8
+      _maxCount: 9
+      _winRate: 2
+    - name: 3
+      _minCount: 10
+      _maxCount: 11
+      _winRate: 3
+    - name: 20
+      _minCount: 12
+      _maxCount: 30
+      _winRate: 20
+  - name: sixth
+    _type: 5
+    _sprite: {fileID: 21300000, guid: 6e2cbddcdf557414a9ae7b17c42f8566, type: 3}
+    _winSprite: {fileID: 21300000, guid: 8d2597c0168cd48378e6d0e2f4217bec, type: 3}
+    _winRates:
+    - name: 3
+      _minCount: 8
+      _maxCount: 9
+      _winRate: 3
+    - name: 4
+      _minCount: 10
+      _maxCount: 11
+      _winRate: 4
+    - name: 24
+      _minCount: 12
+      _maxCount: 30
+      _winRate: 24
+  - name: seventh
+    _type: 6
+    _sprite: {fileID: 21300000, guid: e29d1e9856b1c467ea6fd3d3b91444cd, type: 3}
+    _winSprite: {fileID: 21300000, guid: 9af595e09ea704d8f8c36a2a3e1d58bd, type: 3}
+    _winRates:
+    - name: 4
+      _minCount: 8
+      _maxCount: 9
+      _winRate: 4
+    - name: 10
+      _minCount: 10
+      _maxCount: 11
+      _winRate: 10
+    - name: 30
+      _minCount: 12
+      _maxCount: 30
+      _winRate: 30
+  - name: eighth
+    _type: 7
+    _sprite: {fileID: 21300000, guid: d98a2577b74e44f54a62d76b4514eba3, type: 3}
+    _winSprite: {fileID: 21300000, guid: 715fd2950576143b1bf0ddd6436da42e, type: 3}
+    _winRates:
+    - name: 5
+      _minCount: 8
+      _maxCount: 9
+      _winRate: 5
+    - name: 20
+      _minCount: 10
+      _maxCount: 11
+      _winRate: 20
+    - name: 50
+      _minCount: 12
+      _maxCount: 30
+      _winRate: 50
